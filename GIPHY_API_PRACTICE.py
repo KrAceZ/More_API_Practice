@@ -10,5 +10,5 @@ for gif in response["data"]:
     title = gif["title"]
     trending_date = gif["trending_datetime"]
     url = gif["url"]
-    print(f"{title} | {trending_date | {url}")
+    print(f"{title} | {trending_date} | {url}")
     
